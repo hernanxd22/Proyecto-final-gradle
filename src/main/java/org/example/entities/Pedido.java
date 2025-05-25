@@ -12,7 +12,7 @@ import java.util.Set;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Pedido {
+public class Pedido extends Base  {
     private LocalTime horaEstimadaFinalizacion;
     private Double total;
     private Double totalcosto;

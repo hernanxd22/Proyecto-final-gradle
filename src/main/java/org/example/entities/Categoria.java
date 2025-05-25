@@ -12,7 +12,7 @@ import java.util.Set;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Categoria {
+public class Categoria extends Base  {
     @ToString.Exclude
     private Categoria categoriaPadre;
     @Builder.Default

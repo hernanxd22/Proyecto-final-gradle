@@ -7,7 +7,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario {
+public class Usuario extends Base  {
     private String auth0id;
     private String username;
 }

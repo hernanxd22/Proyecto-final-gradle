@@ -11,7 +11,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
-public abstract class Articulo  {
+public abstract class Articulo extends Base  {
     protected String denominacion;
     protected Double precioVenta;
     @Builder.Default

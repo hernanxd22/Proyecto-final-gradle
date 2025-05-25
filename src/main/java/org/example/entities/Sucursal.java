@@ -14,7 +14,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Sucursal {
+public class Sucursal extends Base  {
     private String nombre;
     private LocalTime horarioApertura;
     private LocalTime horarioCierre;

@@ -7,7 +7,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Localidad {
+public class Localidad extends Base  {
     private String nombre;
     private Provincia provicia;
 }
