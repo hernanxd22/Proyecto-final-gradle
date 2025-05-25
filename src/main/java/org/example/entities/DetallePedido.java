@@ -7,7 +7,7 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class DetallePedido {
+public class DetallePedido extends Base  {
     private Integer cantidad;
     private Double subtotal;
     private Articulo articulo;

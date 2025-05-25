@@ -11,7 +11,7 @@ import java.util.Set;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Cliente {
+public class Cliente extends Base  {
     private String nombre;
     private String apellido;
     private String telefono;

@@ -8,6 +8,6 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class Imagen {
+public class Imagen extends Base  {
     private String denominacion;
 }

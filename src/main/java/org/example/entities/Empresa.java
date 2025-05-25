@@ -11,7 +11,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Builder
 @ToString
-public class Empresa {
+public class Empresa extends Base {
     private String nombre;
     private int cuil;
     private String razonSocial;

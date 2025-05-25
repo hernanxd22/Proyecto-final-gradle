@@ -7,6 +7,6 @@ import lombok.*;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-public class UnidadMedida {
+public class UnidadMedida extends Base  {
     private String denominacion;
 }
