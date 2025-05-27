@@ -11,17 +11,26 @@ repositories {
 }
 
 dependencies {
+    // Dependencias para tests con JUnit 5
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 
-    implementation("com.mysql:mysql-connector-j:9.3.0")
+    // Driver oficial MySQL JDBC
+    implementation 'mysql:mysql-connector-java:8.0.33'
 
-    compileOnly("org.projectlombok:lombok:1.18.38")
+    // Lombok para generar código boilerplate
+    compileOnly 'org.projectlombok:lombok:1.18.38'
     annotationProcessor 'org.projectlombok:lombok:1.18.38'
 }
 
 application {
     mainClass = 'org.example.Main'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
 }
 
 test {
