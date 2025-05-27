@@ -8,7 +8,7 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class Domicilio extends Base {
-    private String calle;
-    private Integer numero;
+public class Persona extends Base {
+    private String nombre;
+    private Domicilio domicilio;
 }
