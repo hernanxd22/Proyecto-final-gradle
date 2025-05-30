@@ -1,14 +1,15 @@
 package org.example.entities;
-
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 
-@Getter
+@Builder
 @Setter
-@NoArgsConstructor
+@Getter
+@ToString
 @AllArgsConstructor
-@SuperBuilder
+@NoArgsConstructor
 public class Domicilio extends Base {
     private String calle;
     private Integer numero;
+    private Integer cp;
+    private Localidad localidad;
 }
